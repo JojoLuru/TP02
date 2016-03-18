@@ -3,4 +3,6 @@ build.xml
 dist
 manifest.mf
 nbproject
-
+Icon
+.DS_Store
+target
