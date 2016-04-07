@@ -18,7 +18,7 @@ public class mysql {
        Class.forName("com.mysql.jdbc.Driver");
        Properties prop = new Properties();
        prop.put("user", "root"); prop.put("password","root");prop.put("charSet","UTF-");
-       return DriverManager.getConnection("jdbc:mysql://localhost:8889/" + nomBase, prop);
+       return DriverManager.getConnection("jdbc:mysql://localhost:3306/" + nomBase, prop);
    } 
    
    public static Connection importation() throws Exception{
